@@ -1,0 +1,24 @@
+body{
+    background-color: powderblue;
+}
+hr{
+    border-color: black;
+    border-style: none;
+    border-top-style: dotted;
+    width: 50%;
+    border-width: 4px;
+    /* size: 4px; */
+}
+h1{
+    color: crimson;
+}
+h3{
+    color: orangered;
+}
+img{
+    background-color: purple;
+    width: 160px;
+}
+.yourMother{
+    background-color:chocolate;
+}
