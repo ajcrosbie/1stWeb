@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <H1> advanced html</H1>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h3> tables </h3>
+        <table cellspacing="10">
+            <thead>
+                <tr>
+                    <th>
+                        can also make titles using th tags in thead part
+                    </th>
+                    <th>
+                        quite complicated just look at the code
+                    </th>
+                </tr>
+            </thead>
+            <tr>
+                <td> must make a table tag, think object like body/header</td>
+                <td>
+                    then must make table rows using tr tag
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    then for each cell in that row use a td tag
+                </td>
+                <td> then it should line up</td>
+
+            </tr>
+        </table>
+        <hr>
+        <br>
+        <h3> forms </h3>
+        <p> a form allows a seried of inputs to be made
+            the action is used to say what to do with those inputs
+            the submit calls this action it can be filled with an
+            mailTo:fake@email to send the data to that. 
+            it is then filled with input object which can
+            be made into vastly different types using the
+            type paramiter.
+            the name paramiter will pass that along with the
+            inputed data when sent to the next part of the program
+            very usefull to give context and manage things
+        </p>
+        <form class="" action="mailTo:FakeEmail@gmail.com" method="post">
+            <table cellspacing="5">
+                <thead>
+                    <th>
+                        <tr>
+                            <td> name of field</td>
+                            <td> example message requested</td>
+                            <td> what the input section looks like</td>
+                            <td> description</td>
+                        </tr>
+                        <tr></tr>
+                    </th>
+                </thead>
+                <tr>
+                    <td>text </td>
+                    <td> your name</td>
+                    <td><input type="text" name="userName"></td>
+                    <td> allows user to input messages but the box stays the same</td>
+                </tr>
+                
+                <tr>
+                    <td>email</td>
+                    <td> your email </td>
+                    <td><input type="email" name="yourEmail"></td>
+                    <td> allows user to input email and then validates it when submit is pressed</td>
+                </tr>
+                <tr>
+                    <td>textarea</td>
+                    <td> message</td>
+                    <td><textarea name="yourMessage" id="" cols="30" rows="3"> needs closing for some reason</textarea></td
+                    <td>large input box that can be changed in display size</td>
+                </tr>
+                <tr>
+                    <td>checkbox</td>
+                    <td> I have read the terms and conditions</td>
+                    <td><input type="checkbox" name="Conditions"></td>
+                    <td>binary on or off</td>
+                </tr>
+                <tr>
+                    <td>password</td>
+                    <td> what is the password?</td>
+                    <td><input type="password" name="Password"></td>
+                    <td>input but the message is hidden</td>
+                </tr>
+                <tr>
+                    <td>radio</td>
+                    <td>hello world pick one</td>
+                    <td><input type="radio" name="hello"></td>
+                    <td>only one of the radios with the same name paramiter can be chosen</td>
+                </tr>
+                <tr>
+                    <td>radio again</td>
+                    <td>hello there pick one</td> 
+                    <td><input type="radio" name="hello"></td>
+                    <td>only one of the radios with the same name paramiter can be chosen</td>
+                </tr>
+                <tr> 
+                    <td>submit</td>
+                    <td>submit?</td>
+                    <td><input type="submit"></td>
+                    <td> performs the action of the whole form when clicked</td>
+                </tr>
+
+            </table>
+        </form>
+    </body>
+
+
+</html>
