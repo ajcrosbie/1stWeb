@@ -19,6 +19,37 @@ img{
     background-color: purple;
     width: 160px;
 }
-.yourMother{
+.exampleClass{
     background-color:chocolate;
+}
+#exampleId{
+    background-color: slateblue;
+}
+#theMoon{
+    background-color: turquoise;
+}
+.hoverableImage:hover{
+    background-color: chartreuse;
+}
+.Blue{
+    width:20px;
+    height:20px;
+    background-color: blue;
+    display: block;
+
+}
+.Blue:hover{
+    position:absolute;
+    left:90%;
+}
+.red{
+    margin:10px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    display: block;
+}
+.red:hover{
+    position: relative;
+    left:30px;
 }
